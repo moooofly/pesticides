@@ -1,6 +1,6 @@
 # erl_crashdump_analyzer.sh 说明
 
-> recon 工具集地址：[erl_crashdump_analyzer.sh](https://github.com/ferd/recon/blob/master/script/erl_crashdump_analyzer.sh)
+> 原 recon 工具地址：[erl_crashdump_analyzer.sh](https://github.com/ferd/recon/blob/master/script/erl_crashdump_analyzer.sh)
 
 使用示例：
 
