@@ -1,5 +1,17 @@
 # custom_crashdump.sh 说明
 
+## 使用方法
+
+```
+# epmd -names
+epmd: up and running on port 4369 with data:
+name rabbit_3 at port 25675
+name rabbit_2 at port 25674
+name rabbit_1 at port 25673
+# ./custom_crashdump.sh rabbit_3
+...
+```
+
 ## 脚本说明
 
 ```
