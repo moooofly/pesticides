@@ -1,8 +1,14 @@
 # erl_crashdump_analyzer.sh 说明
 
-> 原 recon 工具地址：[erl_crashdump_analyzer.sh](https://github.com/ferd/recon/blob/master/script/erl_crashdump_analyzer.sh)
+> 官方地址：[这里](https://github.com/ferd/recon/blob/master/script/erl_crashdump_analyzer.sh)
 
-使用示例：
+## 使用方法
+
+```
+./erl_crashdump_analyzer.sh erl_crash.dump
+```
+
+## 使用示例
 
 ```shell
 ➜  pesticides git:(master) ✗ ./erl_crashdump_analyzer.sh erl_crash.dump
