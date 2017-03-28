@@ -1,4 +1,17 @@
 #!/usr/bin/env bash
+
+help()
+{
+    echo "Usage: ./erl_crashdump_analyzer.sh <crashdump>"
+    exit 0
+}
+
+if [ "$#" -lt 1 ]
+then
+    help
+    exit 1
+fi
+
 DUMP=$1
 
 ## -- echo -e 表示接受 '\'' 转义；
